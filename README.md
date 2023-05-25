@@ -3,6 +3,7 @@
 ## The following section provides information on the available endpoints for this API.
 
 ### Create a Game
+
 Method: POST
 
 Endpoint: /api/games
@@ -28,7 +29,8 @@ Response:
 "updatedAt": "timestamp"
 }
 
-Get All Games
+### Get All Games
+
 Method: GET
 
 Endpoint: /api/games
@@ -48,7 +50,8 @@ Response:
 },
 ]
 
-Update a Game
+### Update a Game
+
 Method: PUT
 
 Endpoint: /api/games/:id
@@ -74,7 +77,7 @@ Response:
 "updatedAt": "timestamp"
 }
 
-Delete a Game
+### Delete a Game
 Method: DELETE
 
 Endpoint: /api/games/:id
