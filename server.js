@@ -5,7 +5,7 @@ const cors = require('cors')
 
 // import routers
 const indexRouter = require('./routes/index.js')
-const gamesRouter = require('./routes/cats.js')
+const gamesRouter = require('./routes/games.js')
 
 // create the express app
 const app = express()
